@@ -50,7 +50,7 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-a
 #tailscale
 sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' feeds/packages/net/tailscale/Makefile
 git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
-UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
+#UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 # Themes
 git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
